@@ -1,6 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 int my_str_isalpha(char const *str)
 {
@@ -17,12 +15,4 @@ int my_str_isalpha(char const *str)
    return 0;
   else
    return 1;
-
-}
-
-int main()
-{
-  char str[] = "dqthez8tha";
-  printf("%d\n", my_str_isalpha(str));
-  return 0;
 }
