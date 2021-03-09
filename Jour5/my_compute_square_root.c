@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
 
 int my_compute_square_root(int nb)
 {
@@ -12,13 +11,5 @@ int my_compute_square_root(int nb)
     if (x * x == nb)
       return x;
   }
-  return 0;
-}
-
-int main()
-{
-  int nb;
-
-  nb = my_compute_square_root(9);
   return 0;
 }
