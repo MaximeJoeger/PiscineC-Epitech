@@ -1,6 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 char *my_strlowcase(char *str)
 {
@@ -11,11 +9,4 @@ char *my_strlowcase(char *str)
     i++;
   }
   return str;
-}
-
-int main()
-{
-  char str[] = "AETH5CZ";
-  printf("%s\n", my_strlowcase(str));
-  return 0;
 }
