@@ -10,7 +10,6 @@ int my_str_isalpha(char const *str)
         x++;
     i++;
   }
-  printf("%d\n", x);
   if (x > 0)
    return 0;
   else
