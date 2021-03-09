@@ -1,6 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 char *my_strstr(char *str, char const *to_find)
 {
@@ -26,13 +24,4 @@ char *my_strstr(char *str, char const *to_find)
       }
     }
   }
-}
-
-int main()
-{
-  char *strstr;
-  char str[] = "168435";
-  strstr = my_strstr(str, "3468384");
-  printf("%s\n", strstr);
-  return 0;
 }
