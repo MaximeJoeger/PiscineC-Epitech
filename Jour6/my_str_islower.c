@@ -1,6 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 int my_str_islower(char const *str)
 {
@@ -12,16 +10,8 @@ int my_str_islower(char const *str)
         x++;
     i++;
   }
-  printf("%d\n", x);
   if (x > 0)
    return 0;
   else
    return 1;
-}
-
-int main()
-{
-  char str[] = "betvs";
-  printf("%d\n", my_str_islower(str));
-  return 0;
 }
