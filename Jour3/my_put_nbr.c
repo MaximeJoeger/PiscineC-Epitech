@@ -73,22 +73,3 @@ int my_put_nbr(int n)
   my_putstr(result);
   return 0;
 }
-
-int main()
-{
-    my_put_nbr(0);
-    my_putchar('\n');
-    my_put_nbr(8);
-    my_putchar('\n');
-    my_put_nbr(-8);
-    my_putchar('\n');
-    my_put_nbr(10);
-    my_putchar('\n');
-    my_put_nbr(128);
-    my_putchar('\n');
-    my_put_nbr(-2147483647);
-    my_putchar('\n');
-    my_put_nbr(2147483647);
-    my_putchar('\n');
-    return 0;
-}
