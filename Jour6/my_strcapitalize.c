@@ -1,6 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 char* my_strcapitalize(char *str)
 {
@@ -18,12 +16,4 @@ char* my_strcapitalize(char *str)
     i++;
   }
   return str;
-}
-
-int main()
-{
-  char str[] = "Bonjour je m'appelle Maxime 123 ?";
-  my_strcapitalize(str);
-  printf("%s\n", str);
-  return 0;
 }
