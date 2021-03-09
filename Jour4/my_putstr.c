@@ -17,13 +17,3 @@ int my_putstr(char const *str)
   }
   return 0;
 }
-
-int main()
-{
-  my_putstr("jngzln\n");
-  my_putstr(NULL);
-  my_putstr("j\n");
-  my_putstr("");
-
-  return 0;
-}
