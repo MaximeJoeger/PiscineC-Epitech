@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include <unistd.h>
-#include <stdlib.h>
 
 int my_strlen(char const *str)
 {
@@ -93,13 +91,4 @@ int my_getnbr(char const *str)
   if (n = 1)
     my_nbr *= -1;
   return my_nbr;
-}
-
-int main()
-{
-  char str[] = "gc68268532rgz55";
-  int my_nbr = my_getnbr(str);
-  printf("%d\n", my_nbr);
-
-  return 0;
 }
