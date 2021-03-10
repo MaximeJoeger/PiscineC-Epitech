@@ -1,6 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 int my_compute_power_it(int nb, int p)
 {
@@ -22,17 +20,4 @@ int my_compute_power_it(int nb, int p)
   else if (p < 0)
     nb = 0;
   return nb;
-}
-int main()
-{
-  int nb;
-
-  nb = my_compute_power_it(10, 2);
-  int nb1 = my_compute_power_it(4, 0);
-  int nb2 = my_compute_power_it(4, -8);
-  printf("%d\n", nb);
-  printf("%d\n", nb1);
-  printf("%d\n", nb2);
-
-  return 0;
 }

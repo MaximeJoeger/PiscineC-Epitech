@@ -1,6 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 int my_strlen(char const *str)
 {
@@ -35,15 +33,4 @@ char *my_strncpy(char *dest, char const *src, int n)
     dest[x-1] == '\0';
   }
   return dest;
-}
-
-int main()
-{
-  int n = 12;
-  char dest[] = "123456789";
-  char const src[] = "ABCDEFG";
-
-  my_strncpy(dest, src, n);
-  printf("%s", dest);
-  return 0;
 }

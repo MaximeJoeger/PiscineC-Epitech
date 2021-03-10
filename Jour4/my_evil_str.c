@@ -1,6 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
-
 
 void my_putchar(char c)
 {
@@ -53,29 +51,4 @@ char *my_evil_str(char *str)
    h++;
   }
   return str;
-}
-
-int main()
-{
-  char *str1 = NULL;
-  my_evil_str(str1);
-  my_putstr(str1);
-
-  char str2[] = "";
-  my_evil_str(str2);
-  printf("%s\n", str2);
-
-  char str3[] = "A";
-  my_evil_str(str3);
-  printf("%s\n", str3);
-
-  char str4[] = "ABCD";
-  my_evil_str(str4);
-  printf("%s\n",str4);
-
-  char str5[] = "ABCDE";
-  my_evil_str(str5);
-  printf("%s\n",str5);
-
-  return 0;
 }

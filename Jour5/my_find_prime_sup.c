@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
 
 int my_is_prime(int nb)
 {
@@ -32,19 +31,4 @@ int my_find_prime_sup(int nb)
     i = my_is_prime(nb);
   }
   return nb;
-}
-
-int main()
-{
-  int primeNbr;
-
-  primeNbr = my_find_prime_sup(114);
-  int primeNbr1 = my_find_prime_sup(-19);
-  int primeNbr2 = my_find_prime_sup(11);
-  int primeNbr3 = my_find_prime_sup(0);
-  printf("%d\n", primeNbr);
-  printf("%d\n", primeNbr1);
-  printf("%d\n", primeNbr2);
-  printf("%d\n", primeNbr3);
-  return 0;
 }

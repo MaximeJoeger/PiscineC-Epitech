@@ -1,6 +1,4 @@
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 void my_swap_char(char *a,char *b)
 {
@@ -33,12 +31,4 @@ char *my_revstr(char *str)
     x--;
   }
   return str;
-}
-
-int main()
-{
-  char str[] = "123456";
-  my_revstr(str);
-  printf("%s\n", str);
-  return 0;
 }
